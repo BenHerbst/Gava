@@ -1,60 +1,60 @@
-# Java In Polish
-Java translator from polish to english, shitty af.
+# Gava - Java in German
+Java translator from German to English
 
-# Example code in polish:
+# Example code in german:
 
 ```java
-publiczna klasa Example {
-    publiczna statyczna próżnia main(String[] args) {
-        sieć alfabet = "abcdefghijklmnopqrstuvwxyz";
-        jeżeli (alfabet.równaSię("alfabet")) {
-            System.out.drukujln("prawda");
-        } w przeciwnym razie {
-            System.out.drukujln("falsz");
+öffentlich klasse Beispiel {
+    öffentlich statisch leer main(String[] args) {
+        zeichenkette alphabet = "abcdefghijklmnopqrstuvwxyz";
+        falls (alphabet.istGleich(alphabet)) {
+            System.out.drucken("wahr");
+        } sonst {
+            System.out.drucken("falsch");
         }
     }
 }
 ```
 
-# All supported polish words:
-`gdy` - `while`
+# All supported German words:
+`während` - `while`
 
-`jeżeli` - `if`
+`falls` - `if`
 
-`prawda` - `true`
+`wahr` - `true`
 
-`fałsz` - `false`
+`falsch` - `false`
 
-`publiczna` - `public`
+`öffentlich` - `public`
 
-`prywatna` - `private`
+`privat` - `private`
 
-`chroniona` - `protected`
+`geschützt` - `protected`
 
-`statyczna` - `static`
+`statisch` - `static`
 
-`próżnia` - `void`
+`leer` - `void`
 
-`zniszcz` - `break`
+`stopp` - `break`
 
-`kontynuuj` - `continue`
+`weiter` - `continue`
 
-`przełącz` - `switch`
+`wechsel` - `switch`
 
-`klasa` - `class`
+`klasse` - `class`
 
-`sieć` - `String`
+`zeichenkette` - `String`
 
-`finalna` - `final`
+`final` - `final`
 
-`zero` - `null`
+`null` - `null`
 
-`próba` - `try`
+`versuch` - `try`
 
-`złap` - `catch`
+`fangen` - `catch`
 
-`równaSię` - `equals`
+`gleicht` - `equals`
 
-`drukuj` - `print`
+`drucken` - `print`
 
-`w przeciwnym razie` - `else`
+`sonst` - `else`
