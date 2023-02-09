@@ -58,3 +58,6 @@ Java translator from German to English
 `drucken` - `print`
 
 `sonst` - `else`
+
+# Credits
+Thanks to zitreF for creating the Polish version which I forked for german!
