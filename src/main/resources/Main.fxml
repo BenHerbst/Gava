@@ -50,7 +50,7 @@
             <Insets bottom="30.0" />
          </BorderPane.margin>
          <children>
-            <Button mnemonicParsing="false" text="Compile">
+            <Button fx:id="compileButton" mnemonicParsing="false" onAction="#compile" text="Compile">
                <font>
                   <Font size="15.0" />
                </font>
@@ -84,7 +84,7 @@
                         <Insets right="10.0" />
                      </HBox.margin>
                   </TextField>
-                  <Button minWidth="70.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="71.0" text="Choose">
+                  <Button fx:id="chooseButton" minWidth="70.0" mnemonicParsing="false" onAction="#chooseFile" prefHeight="41.0" prefWidth="71.0" text="Choose">
                      <HBox.margin>
                         <Insets />
                      </HBox.margin>
