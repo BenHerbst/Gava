@@ -1,6 +1,6 @@
-package io.github.javainpolish.transformers;
+package de.benherbst.gava.transformers;
 
-import io.github.javainpolish.language.Language;
+import de.benherbst.gava.language.Language;
 
 import java.util.function.Function;
 

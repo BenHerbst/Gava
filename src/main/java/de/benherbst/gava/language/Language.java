@@ -1,4 +1,4 @@
-package io.github.javainpolish.language;
+package de.benherbst.gava.language;
 
 import java.util.Locale;
 import java.util.Map;

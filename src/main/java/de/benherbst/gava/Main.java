@@ -1,7 +1,7 @@
-package io.github.javainpolish;
+package de.benherbst.gava;
 
-import io.github.javainpolish.compiler.CompilerInfo;
-import io.github.javainpolish.compiler.JavaFileCompiler;
+import de.benherbst.gava.compiler.CompilerInfo;
+import de.benherbst.gava.compiler.JavaFileCompiler;
 
 import java.io.File;
 import java.util.Scanner;

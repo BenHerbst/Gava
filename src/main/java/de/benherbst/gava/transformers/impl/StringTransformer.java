@@ -1,7 +1,7 @@
-package io.github.javainpolish.transformers.impl;
+package de.benherbst.gava.transformers.impl;
 
-import io.github.javainpolish.language.Language;
-import io.github.javainpolish.transformers.Transformer;
+import de.benherbst.gava.language.Language;
+import de.benherbst.gava.transformers.Transformer;
 
 import java.io.*;
 import java.util.Map;

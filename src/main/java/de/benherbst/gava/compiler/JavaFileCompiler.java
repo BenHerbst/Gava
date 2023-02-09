@@ -1,8 +1,8 @@
-package io.github.javainpolish.compiler;
+package de.benherbst.gava.compiler;
 
-import io.github.javainpolish.language.impl.PolishLanguage;
-import io.github.javainpolish.transformers.Transformer;
-import io.github.javainpolish.transformers.impl.StringTransformer;
+import de.benherbst.gava.language.impl.GermanLanguage;
+import de.benherbst.gava.transformers.Transformer;
+import de.benherbst.gava.transformers.impl.StringTransformer;
 
 import java.io.File;
 import java.lang.reflect.InvocationTargetException;
@@ -14,9 +14,9 @@ import java.net.URLClassLoader;
 public final class JavaFileCompiler {
 
     public CompilerInfo compile(File file) {
-        PolishLanguage polishLanguage = new PolishLanguage();
+        GermanLanguage germanLanguage = new GermanLanguage();
         Transformer<File, String> transformer = new StringTransformer();
-        transformer.apply(polishLanguage).apply(file);
+        transformer.apply(germanLanguage).apply(file);
 
         int result = com.sun.tools.javac.Main.compile(new String[] {file.getAbsolutePath()});
         if (result != 0) {

@@ -1,15 +1,15 @@
-package io.github.javainpolish.language.impl;
+package de.benherbst.gava.language.impl;
 
-import io.github.javainpolish.language.Language;
+import de.benherbst.gava.language.Language;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public final class PolishLanguage implements Language {
+public final class GermanLanguage implements Language {
 
     private final Map<String, String> dictionary;
 
-    public PolishLanguage() {
+    public GermanLanguage() {
         this.dictionary = new HashMap<>();
         dictionary.put("während", "while");
         dictionary.put("falls", "if");

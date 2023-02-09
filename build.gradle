@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'io.github.javainpolish'
+group 'de.benherbst.gava'
 version '1.0-SNAPSHOT'
 
 repositories {

@@ -1,4 +1,4 @@
-package io.github.javainpolish.compiler;
+package de.benherbst.gava.compiler;
 
 import java.io.File;
 

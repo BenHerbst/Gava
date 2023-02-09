@@ -1,11 +1,10 @@
-publiczna klasa Example {
-    publiczna statyczna próżnia main(String[] args) {
-        sieć alfabet = "abcdefghijklmnopqrstuvwxyz"
-        jeżeli (alfabet.równaSię("alfabet")) {
-            System.out.drukujln("prawda");
-        } w przeciwnym razie {
-            System.out.drukujln("falsz");
+öffentlich klasse Beispiel{
+        öffentlich statisch leer main(String[]args){
+            zeichenkette alphabet="abcdefghijklmnopqrstuvwxyz";
+            falls (alphabet.istGleich(alphabet)){
+                System.out.drucken("wahr");
+            } sonst {
+                System.out.drucken("falsch");
+            }
         }
-    }
 }
-
