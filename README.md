@@ -1,6 +1,8 @@
 # Gava - Java in German
 Java translator from German to English
 
+German Version created by Ben Herbst: https://www.benherbst.de/
+
 # Example code in german:
 
 ```java
