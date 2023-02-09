@@ -8,7 +8,7 @@
    </br>
 </p>
 
-# Example code in german:
+# Example code in German:
 
 ```java
 öffentlich klasse Beispiel {
