@@ -1,5 +1,12 @@
 # Gava - Java in German
-Java translator from German to English
+<br>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/83538916/217952742-7c0c0431-3fc3-40de-bd34-71470847634c.png" width=150>
+  </br>
+   <br>
+   <a href="https://www.benherbst.de/">German Version created by Ben Herbst: https://www.benherbst.de/</a>
+   </br>
+</p>
 
 # Example code in german:
 
