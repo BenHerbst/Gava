@@ -1,0 +1,67 @@
+repo_name: BenHerbst/Gava
+report_id: 8f28ea98b70fe5fc410d671c9af0fa61
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-18T21:51:07+00:00'
+requested_by: BenHerbst
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source: build.gradle
+  last_updated_by: fertiz
+  last_updated_on: 2023-02-07 23:00:46.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-api
+  description: Module "junit-jupiter-api" of JUnit 5
+  version: 5.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/Gava/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Ben Herbst
+  last_updated_on: 2023-02-09 23:54:34.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.8.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/BenHerbst/Gava/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Ben Herbst
+  last_updated_on: 2023-02-09 23:54:34.000000000 Z
